@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5AD66E928427D6B009F37A9 /* TrafficLightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD66E828427D6B009F37A9 /* TrafficLightsApp.swift */; };
 		D5AD66EB28427D6B009F37A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD66EA28427D6B009F37A9 /* ContentView.swift */; };
 		D5AD66ED28427D6D009F37A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD66EC28427D6D009F37A9 /* Assets.xcassets */; };
 		D5AD66F028427D6D009F37A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD66EF28427D6D009F37A9 /* Preview Assets.xcassets */; };
+		D5AD66FA28427F0C009F37A9 /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD66F928427F0C009F37A9 /* ChangeColorButton.swift */; };
+		D5AD670428428A7A009F37A9 /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD670328428A7A009F37A9 /* ColorLight.swift */; };
+		D5AD670A2842A2A7009F37A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD67092842A2A7009F37A9 /* AppDelegate.swift */; };
+		D5AD670E2842A2E3009F37A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD670D2842A2E3009F37A9 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5AD66E528427D6B009F37A9 /* TrafficLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5AD66E828427D6B009F37A9 /* TrafficLightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsApp.swift; sourceTree = "<group>"; };
 		D5AD66EA28427D6B009F37A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5AD66EC28427D6D009F37A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5AD66EF28427D6D009F37A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5AD66F128427D6D009F37A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AD66F928427F0C009F37A9 /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
+		D5AD670328428A7A009F37A9 /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		D5AD67092842A2A7009F37A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5AD670D2842A2E3009F37A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,11 @@
 		D5AD66E728427D6B009F37A9 /* TrafficLights */ = {
 			isa = PBXGroup;
 			children = (
-				D5AD66E828427D6B009F37A9 /* TrafficLightsApp.swift */,
+				D5AD67092842A2A7009F37A9 /* AppDelegate.swift */,
+				D5AD670D2842A2E3009F37A9 /* SceneDelegate.swift */,
 				D5AD66EA28427D6B009F37A9 /* ContentView.swift */,
+				D5AD670328428A7A009F37A9 /* ColorLight.swift */,
+				D5AD66F928427F0C009F37A9 /* ChangeColorButton.swift */,
 				D5AD66EC28427D6D009F37A9 /* Assets.xcassets */,
 				D5AD66F128427D6D009F37A9 /* Info.plist */,
 				D5AD66EE28427D6D009F37A9 /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AD670E2842A2E3009F37A9 /* SceneDelegate.swift in Sources */,
+				D5AD670A2842A2A7009F37A9 /* AppDelegate.swift in Sources */,
+				D5AD670428428A7A009F37A9 /* ColorLight.swift in Sources */,
 				D5AD66EB28427D6B009F37A9 /* ContentView.swift in Sources */,
-				D5AD66E928427D6B009F37A9 /* TrafficLightsApp.swift in Sources */,
+				D5AD66FA28427F0C009F37A9 /* ChangeColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +283,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TrafficLights/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TrafficLights/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +304,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TrafficLights/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TrafficLights/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
